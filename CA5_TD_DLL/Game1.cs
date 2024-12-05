@@ -11,7 +11,7 @@ namespace CA5_TD_DLL
 
         public Game1()
         {
-            _graphics = new GraphicsDeviceManager(this);
+            _graphics = new GraphicsDeviceManager(this);//hej
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
         }
